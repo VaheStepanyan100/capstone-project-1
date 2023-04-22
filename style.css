@@ -1,3 +1,148 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 356px;
+  margin: 0 auto;
+  background-image: url(assets/images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-icon {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.menu-icon > img {
+  cursor: pointer;
+}
+
+.intro {
+  margin-top: 48px;
+  padding-left: 30px;
+  padding-bottom: 100px;
+}
+
+.intro > div {
+  color: #ec5242;
+}
+
+.intro > h1 {
+  color: #ec5242;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.intro > p {
+  font-size: x-small;
+  font-weight: 600;
+  line-height: 17px;
+  color: #272a31;
+  background-color: rgb(255, 255, 255, 0.9);
+  border: 1px solid gainsboro;
+  padding: 14px 18px;
+  margin-right: 30px;
+  margin-top: 14px;
+}
+
+.intro > h2 {
+  font-weight: bolder;
+  font-size: large;
+  font-style: italic;
+
+  padding-right: 12px;
+  padding-top: 12px;
+}
+
+.intro > span {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+
+main {
+  width: 356px;
+  margin: 0 auto;
+}
+
+.main-program {
+  background-color: #272a31;
+}
+
+.main-program > h3 {
+  color: ghostwhite;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.underline {
+  border-bottom: 2px solid #ec5242;
+  padding-top: 12px;
+  margin-right: 160px;
+  margin-left: 160px;
+}
+
+.main-program-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main-program article {
+  background-color: rgba(255, 255, 255, 0.13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main-program span {
+  color: #ec5242;
+  font-weight: 900;
+}
+
+.main-program p {
+  font-weight: 500;
+  font-size: small;
+  color: #d3d3d3;
+}
+
+.main-program button {
+  border: none;
+  cursor: pointer;
+  background-color: #ec5242;
+  color: white;
+  padding: 20px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+.featured-speakers > h3 {
+  margin-top: 14px;
+  text-align: center;
+}
+
+.featured-speakers > .more {
+  font-weight: 400;
+  font-size: large;
+  cursor: pointer;
+  border: 2px solid #d3d3d3;
+  padding: 14px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.featured-speakers span {
+  color: #ec5242;
+  font-size: medium;
 }
