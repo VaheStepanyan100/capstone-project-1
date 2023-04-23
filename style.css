@@ -126,6 +126,10 @@ main {
   color: #d3d3d3;
 }
 
+.main-program > a {
+  display: none;
+}
+
 .main-program button {
   border: none;
   cursor: pointer;
@@ -282,6 +286,12 @@ main {
   gap: 14px;
 }
 
+.two-summits > div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 .two-summits > h3 {
   color: #272a31;
   font-weight: 600;
@@ -417,6 +427,14 @@ footer p:not(:first-child) {
     color: #272a31;
   }
 
+  .about-intro > div {
+    display: none;
+  }
+
+  .about-intro > p {
+    width: 70%;
+  }
+
   .intro {
     padding-left: 13%;
   }
@@ -445,6 +463,15 @@ footer p:not(:first-child) {
     display: none;
   }
 
+  .main-program > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    color: #d3d3d3;
+    font-size: x-small;
+  }
+
   .featured-speakers .more {
     display: none;
   }
@@ -460,5 +487,47 @@ footer p:not(:first-child) {
   footer {
     width: 100%;
     justify-content: space-evenly;
+  }
+
+  .logo > h3 br {
+    display: none;
+  }
+
+  .logo > p br {
+    display: none;
+  }
+
+  .logo-design {
+    width: 50%;
+  }
+
+  .two-summits > p br {
+    display: none;
+  }
+
+  .event-holder {
+    float: left;
+  }
+
+  .two-summits > div {
+    flex-direction: row;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .footer-about {
+    background-color: #272a31;
+    padding: 20px;
+    margin-bottom: 0;
+  }
+
+  .footer-about > p {
+    color: white;
+  }
+
+  .footer-about > p:not(:first-child) {
+    color: white;
   }
 }
