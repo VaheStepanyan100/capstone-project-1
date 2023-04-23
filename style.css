@@ -146,3 +146,209 @@ main {
   color: #ec5242;
   font-size: medium;
 }
+
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-intro {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about-intro > div {
+  color: #ec5242;
+}
+
+.about-intro > h1 {
+  color: #ec5242;
+  font-weight: 900;
+  letter-spacing: 2px;
+  padding: 14px 0;
+}
+
+.about-intro > p:not(:last-child) {
+  font-size: small;
+  font-weight: 500;
+  line-height: 17px;
+  color: #272a31;
+  background-color: rgb(255, 255, 255, 0.9);
+  border: 1px solid gainsboro;
+  padding: 10px;
+  text-align: center;
+  margin: 14px 24px;
+}
+
+.about-intro > p {
+  text-align: center;
+  font-size: x-small;
+  font-weight: 500;
+  line-height: 17px;
+  color: #272a31;
+}
+
+.about-intro > p a {
+  color: #272a31;
+  font-size: x-small;
+  font-weight: 800;
+}
+
+.logo {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > h3 {
+  font-weight: 500;
+  color: #272a31;
+  line-height: 24px;
+}
+
+.logo > p {
+  color: #272a31;
+  font-weight: 400;
+  font-size: x-small;
+  margin-top: 8px;
+}
+
+.logo-design {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid gainsboro;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.logo-design > h3 {
+  color: #272a31;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.seperate {
+  border-bottom: 2px solid #d3d3d3;
+  margin: 40px 0;
+}
+
+.event-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 316px;
+  height: 180px;
+  background: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)),
+    url('assets/images/MartySVVSRoomPic-803x535.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.event-holder-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 316px;
+  height: 180px;
+  background: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)),
+    url('assets/images/TimNesbitt.pic_.1-803x535.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.two-summits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.two-summits > h3 {
+  color: #272a31;
+  font-weight: 600;
+  font-size: large;
+}
+
+.two-summits > p {
+  text-align: center;
+  color: #272a31;
+  font-weight: 500;
+  font-size: small;
+}
+
+.two-summits a {
+  text-decoration: none;
+}
+
+.summit-year,
+.summit-place {
+  color: white;
+}
+
+.summit-year {
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.summit-place {
+  font-weight: 600;
+  font-size: small;
+}
+
+.under-line {
+  border: 1px solid #ec5242;
+  margin-top: 14px;
+  width: 30px;
+}
+
+.partner {
+  width: 356px;
+  margin-top: 40px;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner > h3 {
+  color: white;
+  margin-top: 20px;
+}
+
+.partner-logo {
+  margin: 14px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+footer {
+  width: 356px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+footer p:not(:first-child) {
+  color: #272a31;
+  font-weight: 300;
+  font-size: small;
+}
