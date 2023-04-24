@@ -15,7 +15,7 @@ header {
   margin: 0 auto;
   background-image: url(assets/images/header.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .active .close-button {
@@ -25,8 +25,9 @@ header {
   padding-left: 320px;
   background: none;
   border: none;
+  font-weight: bolder;
   font-size: large;
-  color: #272a31;
+  color: gray;
 }
 
 .active .header-div {
