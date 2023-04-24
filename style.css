@@ -383,7 +383,7 @@ footer p:not(:first-child) {
     gap: 14px;
     background-color: #272a31;
     height: 34px;
-    padding-right: 14%;
+    padding-right: 15%;
   }
 
   .header-nav a {
@@ -412,6 +412,12 @@ footer p:not(:first-child) {
     font-weight: 300;
     text-decoration: none;
     color: #272a31;
+  }
+
+  .desktop-nav li:last-child > a {
+    padding: 8px;
+    border: 2px solid #ec5242;
+    color: #ec5242;
   }
 
   .desktop-nav > ul {
