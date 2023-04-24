@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+.close-button {
+  display: none;
+}
+
 header {
   width: 356px;
   margin: 0 auto;
@@ -14,7 +18,60 @@ header {
   background-size: cover;
 }
 
-header .header-nav {
+.active .close-button {
+  cursor: pointer;
+  display: block;
+  padding-top: 10px;
+  padding-left: 320px;
+  background: none;
+  border: none;
+  font-size: large;
+  color: #272a31;
+}
+
+.active .header-div {
+  height: 100vh;
+  width: 100vw;
+}
+
+.active .header-nav {
+  width: 336px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #272a31;
+  padding: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.active .header-nav a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: small;
+}
+
+.active .desktop-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.active .desktop-nav a {
+  color: #272a31;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.active .desktop-nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.header-nav {
   display: none;
 }
 
@@ -535,5 +592,9 @@ footer p:not(:first-child) {
 
   .footer-about > p:not(:first-child) {
     color: white;
+  }
+
+  header .active {
+    display: none;
   }
 }
