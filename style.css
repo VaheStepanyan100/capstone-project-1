@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 * {
   margin: 0;
   padding: 0;
@@ -110,10 +112,12 @@ header {
 }
 
 .intro > div {
+  font-family: 'Cocogoose', sans-serif;
   color: #ec5242;
 }
 
 .intro > h1 {
+  font-family: 'Cocogoose', sans-serif;
   color: #ec5242;
   font-weight: 900;
   letter-spacing: 2px;
