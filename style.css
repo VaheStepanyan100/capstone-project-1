@@ -218,6 +218,33 @@ main {
   font-size: medium;
 }
 
+.speakers-details {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.speakers-details img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.details > h4 {
+  font-size: large;
+  font-weight: 900;
+}
+
+.details .title {
+  font-size: small;
+  font-weight: 900;
+  color: #ec5242;
+}
+
+.details .position {
+  font-size: x-small;
+}
+
 .about-intro {
   display: flex;
   flex-direction: column;
@@ -538,6 +565,14 @@ footer p:not(:first-child) {
 
   .featured-speakers .more {
     display: none;
+  }
+
+  .featured-cards {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
   }
 
   .partner {
