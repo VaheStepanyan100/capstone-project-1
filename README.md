@@ -121,7 +121,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my team
+I would like to thank [Cindy Shin](https://www.behance.net/adagio07) the author of the original design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
