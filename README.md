@@ -49,7 +49,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://VaheStepanyan100.github.io/Portfolio-mobile-first/)
+- [Live Demo Link](https://VaheStepanyan100.github.io/capstone-project-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
