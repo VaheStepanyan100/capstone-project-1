@@ -76,7 +76,7 @@ function randomSpeaker() {
           <p class="position">${speaker.about}</p>
         </div>
       </div>
-    `
+    `,
   );
 
   const speakersHTML = speakerDetailsHTML.join('');
