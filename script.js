@@ -11,132 +11,8 @@ closeButton.addEventListener('click', () => {
   mobileMenu.classList.remove('active');
 });
 
-// const featuredTeams = [
-//   {
-//     image: 'assets/team/nrg.png',
-//     name: 'NRG Esports',
-//     region: '(North America)',
-//     description:
-//       'Benkeder studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006',
-//   },
-//   {
-//     image: 'assets/team/vitality.jpg',
-//     name: 'Team Vitality',
-//     region: '(Europe)',
-//     description:
-//       'As the main venue for new media art production in Korea, Nabi promotes cross discoiplinary collaboration and understanding among science technology. humanities, and the arts.',
-//   },
-//   {
-//     image: 'assets/team/spacestation.jpg',
-//     name: 'Spacestation Gaming',
-//     region: '(North America)',
-//     description:
-//       'Executive Director of the Wimimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely avaliable in 290 languages and used by nearly half a billion people around the world every month',
-//   },
-//   {
-//     image: 'assets/team/bds.jpg',
-//     name: 'BDS Esports',
-//     region: '(Europe)',
-//     description:
-//       'Hepled bring the internet to Asia and is an outspoken advocate for the open web and digital commons. In 2012 he was inducted into the inaugural class of the inernet Societ',
-//   },
-//   {
-//     image: 'assets/team/g2.png',
-//     name: 'G2 Esports',
-//     region: '(North America)',
-//     description:
-//       'Political democracy and paricipation of youth through online as her major condern',
-//   },
-//   {
-//     image: 'assets/team/envy.jpg',
-//     name: 'Team Envy',
-//     region: '(North America)',
-//     description:
-//       'Leading open-source projects at the Mozilla Foundation such as the open source movement',
-//   },
-// ];
-
-// const feturedCards = document.querySelector('.featured-cards');
-
-// const mediaQuery = window.matchMedia('(min-width: 768px)');
-
-// if (mediaQuery.matches) {
-//   featuredTeams.forEach((speaker) => {
-//     const container = document.createElement('article');
-//     container.classList.add('card');
-
-//     const imageHolder = document.createElement('div');
-//     imageHolder.classList.add('featured-image-holder');
-//     container.appendChild(imageHolder);
-
-//     const image = document.createElement('img');
-//     image.src = speaker.image;
-//     image.alt = speaker.name;
-//     imageHolder.appendChild(image);
-
-//     const detail = document.createElement('div');
-//     detail.classList.add('detail');
-//     container.appendChild(detail);
-
-//     const speakerName = document.createElement('h5');
-//     speakerName.className = 'card-title';
-//     speakerName.innerHTML = speaker.name;
-//     detail.appendChild(speakerName);
-
-//     const region = document.createElement('span');
-//     region.className = 'card-text';
-//     region.innerHTML = speaker.region;
-//     detail.appendChild(region);
-
-//     const description = document.createElement('p');
-//     description.className = 'card-text';
-//     description.innerHTML = speaker.description;
-//     detail.appendChild(description);
-
-//     feturedCards.appendChild(container);
-//   });
-// } else {
-//   featuredTeams.slice(0, 2).forEach((speaker) => {
-//     const container = document.createElement('article');
-//     container.classList.add('card');
-
-//     const imageHolder = document.createElement('div');
-//     imageHolder.classList.add('fetured-image-holder');
-//     container.appendChild(imageHolder);
-
-//     const image = document.createElement('img');
-//     image.src = speaker.image;
-//     image.alt = speaker.name;
-//     imageHolder.appendChild(image);
-
-//     const detail = document.createElement('div');
-//     detail.classList.add('detail');
-//     container.appendChild(detail);
-
-//     const speakerName = document.createElement('h5');
-//     speakerName.className = 'card-title';
-//     speakerName.innerHTML = speaker.name;
-//     detail.appendChild(speakerName);
-
-//     const region = document.createElement('span');
-//     region.className = 'card-text';
-//     region.innerHTML = speaker.region;
-//     detail.appendChild(region);
-
-//     const description = document.createElement('p');
-//     description.className = 'card-text';
-//     description.innerHTML = speaker.description;
-//     detail.appendChild(description);
-
-//     feturedCards.appendChild(container);
-//   });
-// }
-
-// CREATING FEATURED SPEAKER SECTION DYNAMICALLY
-// Select the speakers element using the class name
 const speakers = document.querySelector('.featured-cards');
 
-// Define an array of speaker details
 const speakersDetails = [
   {
     id: 1,
@@ -188,9 +64,7 @@ const speakersDetails = [
   },
 ];
 
-// Define a function to generate a random speaker from the array
 function randomSpeaker() {
-  // Use the map function to create a new array of speaker details HTML elements
   const speakerDetailsHTML = speakersDetails.map(
     (speaker) => `
       <div class="speakers-details">
@@ -205,12 +79,9 @@ function randomSpeaker() {
     `
   );
 
-  // Use the join function to concatenate the array of HTML elements into a string
   const speakersHTML = speakerDetailsHTML.join('');
 
-  // Set the innerHTML of the speakers element to the generated HTML string
   speakers.innerHTML = speakersHTML;
 }
 
-// Call the randomSpeaker function to generate a random speaker on page load
 randomSpeaker();
